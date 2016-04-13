@@ -1,0 +1,7 @@
+package test.dummy;
+
+message Dummy {
+    required int32 id = 1;
+    required string name = 2;
+    optional string desc = 3;
+}
